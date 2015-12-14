@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="3dp">
+
+    <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/abraham_and_isaac"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        <ImageView
+                android:id="@+id/img2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:src="@drawable/abraham_and_isaac"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"/>
+
+        <ImageView
+                android:id="@+id/img3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:src="@drawable/abraham_and_isaac"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"/>
+
+        <FrameLayout android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="1">
+
+            <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:src="@drawable/abraham_and_isaac"
+                    android:scaleType="centerCrop"/>
+
+            <TextView
+                    android:id="@+id/last_img_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:textSize="45sp"
+                    android:text="hello"/>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
